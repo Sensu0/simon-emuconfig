@@ -1,1 +1,2 @@
-pcsxr -cfg silenthill.cfg -cdfile "/mnt/WD1TBUSB/ROMs & ISOs/PS1/silent_hill_(v1.1)(USA).bin"
+# Script to run Silent Hill. Seems to work with v1.0 and v1.1 (USA).
+pcsxr -cfg silenthillconfig.cfg -cfg plugins/silenthillgpu.cfg -cdfile "/mnt/WD1TBUSB/ROMs & ISOs/PS1/silent_hill.bin"
