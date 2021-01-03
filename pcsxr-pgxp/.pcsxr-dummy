@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script to run Silent Hill.
+# Dummy script to run the game you want to play
 echo "Run prep-pcsxr before this to run the optimal configuration"
 echo ""
-pcsxr -cdfile "/path/to/silent_hill.bin"
+pcsxr -cdfile "/path/to/game"

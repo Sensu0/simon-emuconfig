@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gametitle=$1
+
+echo "enter gametitle"
+read gametitle
+
+cp -vr ~/.pcsxr/$gametitle\config.cfg ~/.pcsxr/pcsxr.cfg
+cp -vr ~/.pcsxr/plugins/$gametitle\gpu.cfg ~/.pcsxr/plugins/gpuPeopsMesaGL.cfg
