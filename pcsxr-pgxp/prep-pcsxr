@@ -1,8 +1,10 @@
 #!/bin/bash
+#
+# This can be run with zsh as well if you don't have bash installed for whatever reason.
 
 gametitle=$1
 
-echo "enter gametitle"
+echo "Enter the 'game title' for a PS1 game"
 read gametitle
 
 cp -vr ~/.pcsxr/$gametitle\config.cfg ~/.pcsxr/pcsxr.cfg
