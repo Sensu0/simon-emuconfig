@@ -7,18 +7,21 @@ gametitle=$1
 patch=$2
 outputfile=$3
 
-read -n1 -r -p "You need to have xdelta3 installed to run this script. Press any key to continue..."
+echo "Use this command: 'xdelta3 -d -s gametitle patchname outputfile' "
 
-echo "
-What is the path to the source ROM? If source is in the current path, just provide the file name."
-read gametitle
+# read -n1 -r -p "You need to have xdelta3 installed to run this script. Press any key to continue..."
 
-echo "
-What is the path to the patch? If patch is in the current path, just provide the file name."
-read patch
+# echo "
+# What is the path to the source ROM? If source is in the current path, just provide the file name."
+# read -r gametitle
 
-echo "
-Provide the name and path for the outputfile (i.e. the patched copy of the ROM):"
-read outputfile
+# echo "
+# What is the path to the patch? If patch is in the current path, just provide the file name."
+# read -r patch
 
-xdelta3 -d -s $gametitle $patch $outputfile
+# echo "
+# Provide the name and path for the outputfile (i.e. the patched copy of the ROM):"
+# read -r outputfile
+
+# xdelta3 -d -s $gametitle $patch $outputfile
+
