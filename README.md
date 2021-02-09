@@ -12,7 +12,7 @@ Most romhacks can be found at <a href="https://www.romhacking.net">www.romhackin
 
 Known software to patch roms (i.e. make romhacks):
 
-xdelta3		DS
+xdelta3		DS & PS1
 
 Lazy-ips	SNES
 
