@@ -31,3 +31,5 @@ Dolphin:			~/.config/dolphin-emu
 RPCS3:				~/.config/rpcs3
 
 PPSSPP:				~/.config/ppsspp
+
+Mednafen:			~/.config/.mednafen
