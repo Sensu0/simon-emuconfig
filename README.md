@@ -2,6 +2,10 @@
 
 If you're like me and play a lot of games through emulators, you may have run into situations where the settings you commonly use are not optimal for the game you play. Remembering which settings work best with a given game is also a pain in the ass. Thus creating a need for an individual configuration, which this repository provides.
 
+Heck, sometimes I would argue patching/hacking the game itself is necessary to provide a good experience.
+
+While you can in most cases play romhacks on a modded console or with some cheat devices (like Action Replay for Sega Saturn), it is cheaper to run those on an emulator and you will be able to at bare minimum change the input configuration so you can either use the keyboard or a controller (I like to use mouse and keyboard myself for some Wii games).
+
 Will provide scripts, configuration files and game lists as time goes on.
 
 ---
@@ -32,4 +36,7 @@ RPCS3:				~/.config/rpcs3
 
 PPSSPP:				~/.config/ppsspp
 
-Mednafen:			~/.config/.mednafen
+Mednaffe:			~/.config/.mednafen
+<i>GUI front-end for Mednafen.</i>
+
+MelonDS:			~/.config/melonDS
