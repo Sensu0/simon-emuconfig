@@ -1,27 +1,21 @@
 #!/bin/bash
-#
 # This can be run with zsh as well if you don't have bash installed for whatever reason.
-#
 # Patch script to make using xdelta3 for patching a bit easier.
 gametitle=$1
 patch=$2
 outputfile=$3
 
-echo "Use this command: 'xdelta3 -d -s gametitle patchname outputfile' "
+read -n1 -r -p "You need to have xdelta3 installed to run this script. Press any key to continue..."
 
-# read -n1 -r -p "You need to have xdelta3 installed to run this script. Press any key to continue..."
+read -p "
+What is the full path to the source ROM? If source is in the current path, just provide the file name.
+" $gametitle 
 
-# echo "
-# What is the path to the source ROM? If source is in the current path, just provide the file name."
-# read -r gametitle
+read -p "
+What is the path to the patch? If patch is in the current path, just provide the file name.
+" $patch
 
-# echo "
-# What is the path to the patch? If patch is in the current path, just provide the file name."
-# read -r patch
-
-# echo "
-# Provide the name and path for the outputfile (i.e. the patched copy of the ROM):"
-# read -r outputfile
-
-# xdelta3 -d -s $gametitle $patch $outputfile
-
+read -p "
+Provide the name and path for the outputfile (i.e. the patched copy of the ROM):
+" $outputfile
+xdelta3 -d -s $gametitle $patch $outputfile
