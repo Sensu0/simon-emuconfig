@@ -34,9 +34,9 @@ Dolphin:			~/.config/dolphin-emu
 
 RPCS3:				~/.config/rpcs3
 
-PPSSPP:				~/.config/ppsspp
+PPSSPP:       ~/.config/ppsspp
 
-Mednaffe:			~/.config/.mednafen
-<i>GUI front-end for Mednafen.</i>
+Mednaffe 
+(<i>GUI front-end for Mednafen.</i>):  ~/.config/.mednafen
 
 MelonDS:			~/.config/melonDS
