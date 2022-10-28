@@ -36,7 +36,10 @@ RPCS3:				~/.config/rpcs3
 
 PPSSPP:       ~/.config/ppsspp
 
-Mednaffe 
+Mednaffe
+<!-- DO NOT REMOVE THIS SPACE OR THE ONE BELOW -->
+
+<!-- DO NOT REMOVE THIS SPACE OR THE ONE ABOVE -->
 (<i>GUI front-end for Mednafen.</i>):  ~/.config/.mednafen
 
 MelonDS:			~/.config/melonDS
